@@ -20,6 +20,7 @@
             <li><a href="#agenda">Agenda</a></li>
             <li><a href="#summary">Summary</a></li>
             <li><a href="#decisions">Decisions</a></li>
+            <li><a href="#introduction">My Introduction Video</a></li>
           </ol>
         </nav>
       </div></header>
@@ -27,6 +28,35 @@
       <section>
         <h3 id="attendance">Attendance</h3>
         <hr>
+        <form>
+          <fieldset>
+            <legend>Attendance Date:</legend>
+            <input type="date" id="attendance" name="team" />
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>Team Attendance</legend>
+            <input type="checkbox" id="name1" name="teamAttendance" value="1" />
+            <label for="name1">Tyler</label><br>
+            <input type="checkbox" id="name2" name="teamAttendance" value="2" />
+            <label for="name2">Aubrey</label><br>
+            <input type="checkbox" id="name3" name="teamAttendance" value="3" />
+            <label for="name3">Anny</label><br>
+            <input type="checkbox" id="name4" name="teamAttendance" value="4" />
+            <label for="name4">Ethan</label><br>
+            <input type="checkbox" id="name5" name="teamAttendance" value="5" />
+            <label for="name5">Vincent</label><br>
+            <input type="checkbox" id="name6" name="teamAttendance" value="6" />
+            <label for="name6">Andrew</label><br>
+            <input type="checkbox" id="name7" name="teamAttendance" value="7" />
+            <label for="name7">Mitchell</label><br>
+            <input type="checkbox" id="name8" name="teamAttendance" value="8" />
+            <label for="name8">Jonathan</label><br>
+            <input type="checkbox" id="name9" name="teamAttendance" value="9" />
+            <label for="name9">Ivor</label><br>
+          </fieldset>
+        </form>
         <p></p>
       </section>
       <section>
@@ -110,23 +140,100 @@
       <section>
         <h3 id="agenda">Agenda</h3>
         <hr>
-        <p></p>
+        <ol>
+          <li>Introductions</li>
+          <li>Voting</li>
+          <li>Group Activity</li>
+        </ol>
       </section>
       <section>
         <h3 id="summary">Summary</h3>
         <hr>
         <p>
-          Set up meeting
+          In this first meeting on <b>4/14/2024</b> of the <strong>Coding Kittens</strong>, we introduced ourselves to each other to get to know each other more. With this first meeting, we were able to
+          learn more about each other and our <i>personalities and hobbies</i>. We then voted on what our team name should be which as seen is the <strong>Coding Kittens</strong>. In addition,
+          we chose our mascot to be a <em>kitten</em> and our team font of <em>Jetbrains Mono</em>. Afterwards, we chose the roles for each person in the group project and then played games online with 
+          each other for the in group activity. There are no unfinished businesses as we finished everything that was on the agenda. One of the questions asked was
+          which CSE class was your favorite.
         </p>
+        <select>
+          <option value="">--Please choose a favorite CS class--</option>
+          <option value="CSE 100">CSE 100</option>
+          <option value="CSE 21">CSE 21</option>
+          <option value="CSE 20">CSE 20</option>
+          <option value="CSE 15L">CSE 15L</option>
+          <option value="CSE 101">CSE 101</option>
+          <option value="CSE 11">CSE 11</option>
+          <option value="CSE 12">CSE 12</option>
+          <option value="CSE 105">CSE 105</option>
+        </select>
       </section>
       <section>
         <h3 id="decisions">Decisions</h3>
-        <img src="images/mascot.png" alt="Our Group Mascot" width="150" height="150">
         <hr>
-        <p></p>
+        <form>
+          <fieldset>
+            <legend>Team Name Options</legend>
+        
+            <input type="radio" id="cats" name="team" value="C" />
+            <label for="cats">Coding Cats</label><br>
+        
+            <input type="radio" id="kittens" name="team" value="K" />
+            <label for="kittens">Coding Kittens</label><br>
+        
+            <input type="radio" id="pookies" name="team" value="P" />
+            <label for="pookies">Powell Pookies</label><br>
+          </fieldset>
+        </form>
+        <br>
+        <p>Group Mascot</p>
+        <img src="images/mascot.png" alt="Our Group Mascot" width="150" height="150">
+      </section>
+      <section>
+        <h3 id="introduction">My Introduction Video</h3>
+        <hr>
+        <video width="320" height="240" controls>
+          <source src="videos/introduction.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <p>Short Introduction Audio</p>
+        <audio controls>
+          <source src="audio/introduction.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
       </section>
     </main>
     <footer>
+      <hr>
+      <p>Comments and concerns:</p>
+      <textarea rows="5" cols="33">
+      </textarea>
+      <br>
+      <form>
+        <fieldset>
+          <legend>Contact Information:</legend>
+          <input type="text" id="name" name="team" />
+        </fieldset>
+      </form>
+      <br>
+      <label for="month">Choose Month:</label>
+      <input list="calendar" id="month" name="months" />
+      <datalist id="calendar">
+        <option value="January"></option>
+        <option value="February"></option>
+        <option value="March"></option>
+        <option value="April"></option>
+        <option value="May"></option>
+        <option value="June"></option>
+        <option value="July"></option>
+        <option value="August"></option>
+        <option value="September"></option>
+        <option value="October"></option>
+        <option value="November"></option>
+        <option value="December"></option>
+      </datalist>
+      <br>
+      <button type="button">Add to Calendar</button>
     </footer>
   </body>
 </html>
