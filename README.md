@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-[Lab 2](https://tylercooksrice.github.io/Lab2_Starter/)
+[tylercooksrice.github.io/sp24-cse110-lab3](https://tylercooksrice.github.io/sp24-cse110-lab3/)
