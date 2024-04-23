@@ -1,8 +1,24 @@
-/*adding flair to lab2*/
-  a, li {
+/*adding color to lab2*/
+  a {
     color: red;
   }
 
   h1 {
     color: rgb(160, 32, 240);
   }
+
+  h2 {
+    color: #00FF00;
+  }
+
+#attendance {
+    color: hsl(240, 1%, 37%);
+}
+
+#information {
+    color: color(display-p3 1 0.5 0);
+}
+
+#agenda {
+    color: color-mix(in srgb, #34c9eb 20%, white);
+}
