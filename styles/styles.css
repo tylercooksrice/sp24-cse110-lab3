@@ -1,0 +1,8 @@
+/*adding flair to lab2*/
+  a, li {
+    color: red;
+  }
+
+  h1 {
+    color: rgb(160, 32, 240);
+  }
