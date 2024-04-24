@@ -11,5 +11,5 @@
 
 #### 5. Future Endeavors
 
-#### 6. Improvements
+#### 6. Improvements and Advice
 
