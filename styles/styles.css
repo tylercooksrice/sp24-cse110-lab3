@@ -38,28 +38,52 @@
 }
 
 a {
-    color: red;
-  }
+  color: red;
+}
 
-  h1 {
-    color: rgb(160, 32, 240);
-  }
+h1 {
+  color: rgb(160, 32, 240);
+}
 
-  h2 {
-    color: color-mix(in srgb, #34c9eb 20%, white);
-  }
+h2 {
+  color: color-mix(in srgb, #34c9eb 20%, white);
+}
+
+footer {
+  margin: 25px 50px 75px 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right:10px;
+}
 
 #attendance {
-    color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 #information {
-    color: color(display-p3 1 0.5 0);
+  color: color(display-p3 1 0.5 0);
 }
 
 #agenda {
-    color: var(--green);
-    color:  #00FF00;
+  color: var(--green);
+  color:  #00FF00;
+}
+
+.agenda {
+  color: var(--green);
+  color:  #00FF00;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-style: double;
+  border-color: black;
+  padding: 1em 20px 1em 10px;
 }
 
 
