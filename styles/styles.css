@@ -1,7 +1,15 @@
 /*adding color to lab2*/
 .root {
-  --green: #00FF00
+  --green: #00FF00;
 }  
+
+.attendanceBox {
+  background-color: #2E5A88;
+}
+
+.contents {
+  background-color: #00FFFF;
+}
 
 a {
     color: red;
@@ -16,7 +24,7 @@ a {
   }
 
 #attendance {
-    color: hsl(240, 1%, 37%);
+    color: hsl(0, 0%, 100%);
 }
 
 #information {
@@ -27,4 +35,5 @@ a {
     color: var(--green);
     color:  #00FF00;
 }
+
 
