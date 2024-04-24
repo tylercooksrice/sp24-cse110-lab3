@@ -115,3 +115,20 @@ footer {
   position: sticky;
   top: 200px;
 }
+
+button:link {
+  color: #FF0000;
+}
+
+button:visited {
+  color: var(--green);
+}
+
+button:hover {
+  color: #FF00FF;
+  background-color: aqua;
+}
+
+button:active {
+  color: #0000FF;
+}
