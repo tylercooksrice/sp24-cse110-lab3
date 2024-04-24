@@ -73,7 +73,7 @@ h1 {
 }
 
 h2, h3 {
-  color: color-mix(in srgb, #34c9eb 20%, white);
+  color: plum;
 }
 
 footer {
@@ -97,7 +97,7 @@ li * {
 }
 
 #information {
-  color: color(display-p3 1 0.5 0 / 0.5);
+  color: orange;
 }
 
 #agenda {
@@ -200,8 +200,9 @@ section:has(+ h3) {
 
 header {
   background-color: blue;
-  ol.contents {
-    background-color: #00FFFF;
-    width: 10vw;
-  }
+}
+
+header ol.contents{
+  background-color: #00FFFF;
+  width: 10vw;
 }
