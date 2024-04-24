@@ -45,6 +45,9 @@
 .summary {
   max-width: 200px;
   max-height: 500px;
+  position: relative;
+  top: 10px; 
+  left: 100px;
 }
 
 a {
@@ -106,5 +109,9 @@ footer {
   background-color: #00FF00;
   width: 240px;
   height: 100px;
-  
+}
+
+.mascot {
+  position: sticky;
+  top: 200px;
 }
