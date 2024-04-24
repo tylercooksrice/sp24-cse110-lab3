@@ -42,6 +42,11 @@
   width: 10em;
 }
 
+.summary {
+  max-width: 200px;
+  max-height: 500px;
+}
+
 a {
   color: red;
 }
