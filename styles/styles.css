@@ -5,10 +5,36 @@
 
 .attendanceBox {
   background-color: #2E5A88;
+  width: 200px;
 }
 
 .contents {
   background-color: #00FFFF;
+  width: 10vw;
+}
+
+.ethan {
+  color: bisque;
+  width: 100cm;
+}
+
+.andrew {
+  background-color: blanchedalmond;
+  height: 1in;
+}
+
+.jonathan {
+  background-color: blue;
+  width: 10vh;
+}
+
+.mitchellSum {
+  font-size: 1em;
+}
+
+.mitchell {
+  background-color: aqua;
+  width: 10em;
 }
 
 a {
