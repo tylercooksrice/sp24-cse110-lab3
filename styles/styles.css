@@ -1,4 +1,16 @@
 /*adding color to lab2*/
+
+@media screen{
+  .summary {
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    top: 10px; 
+    left: 100px;
+  }
+
+}
+
 .root {
   --green: #00FF00;
 }  
