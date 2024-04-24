@@ -13,6 +13,11 @@
   width: 10vw;
 }
 
+.vincent {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .ethan {
   color: bisque;
   width: 100cm;
