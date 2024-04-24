@@ -89,6 +89,17 @@ footer {
   border-style: double;
   border-color: black;
   padding: 1em 20px 1em 10px;
+  
 }
 
+.cats {
+  display: none;
+}
 
+.question {
+  display: inline-block;
+  background-color: #00FF00;
+  width: 240px;
+  height: 100px;
+  
+}
